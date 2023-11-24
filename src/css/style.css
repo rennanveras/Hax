@@ -90,9 +90,9 @@ header {
 /* START Cabeçalho */
 
 .banner {
-    height:calc(100vh - 100px);
+    height:calc(80vh - 100px);
     background-color: #333;
-    background-image:url('../img/bg.jpg');
+    background-image:url('../img/foto1.jpg');
     background-size:cover ;
     background-position:center;
     overflow: hidden;

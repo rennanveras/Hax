@@ -1,0 +1,606 @@
+@media (min-width:450px) and (max-width:850px) {
+
+    /* menu */
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color:rgba(0, 0, 0, 0.9);
+        width: 50vw;
+        height: calc(100vh - 100px);
+        top:100px;
+        right: 0;
+    }
+
+    .header .logo {
+        font-size: 50px;
+        margin-left:30px;
+    }
+
+    .menu-opener{
+        display: block;
+        width: 45px;
+        margin-right:30px;
+    }
+    
+    .menu ul{
+        flex-direction:column;
+    }
+
+    .menu li{
+        
+    }
+
+    .menu li a{
+        font-weight: bold;
+        height: 60px;
+        font-size:25px;
+        margin-left:50px;
+        border:0;
+    }
+
+    .menu .active a {
+        border:0px;
+        color:#b28756
+    }
+
+    .menu a:hover{
+        color: #b28756;
+        border:none
+    }
+
+    /* Sobre Nós */
+
+    .section-sobre-nos{
+        flex-direction:column;
+    }
+
+    .section-sobre-nos-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-sobre-nos-right {
+        width: auto;
+    }
+
+    /* Serviços */
+
+    .section-servicos{
+        flex-wrap:wrap;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-servico{
+        min-width: 50%;
+        padding-bottom: 20px;
+        
+    }
+
+    .section-servico p{
+        margin-top: 0;
+    }
+
+    .section-servico:first-child{
+        border-left:none;
+    }
+
+    .section-servico:nth-child(n + 3){
+        border-top:1px solid #333;
+        padding-top:30px;
+    }
+
+    .section-servico:nth-child(2n){
+        border-right:none;
+    }
+
+    /* Nosso Equipe */
+
+    .section-team{
+        max-width: calc(280px + 280px);
+    }
+
+    /* patrocinadores */
+    .patrocinio{
+        flex-wrap: wrap;
+    }
+
+    .img-patrocionios{
+        text-align: center;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    /* preços */
+
+    .area-prices{
+        flex-wrap: wrap;
+    }
+
+    .area-prices .box-price{
+        width: 40%;
+        justify-content: space-around;
+        margin: 30px;
+    }
+
+    .area-prices{
+        justify-content: center;
+        width: auto;
+    }
+    
+
+
+    /* apresentação*/
+
+    .apresentacao-produto{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+     /* alguns fatos */
+
+     .section-fatos-sobre{
+        flex-direction: column;
+        margin-bottom: 10px;
+     }
+
+     .section-fato-sobre{
+        margin-bottom: 20px;
+     }
+
+     .section-fato-sobre h4{
+        margin-top:0
+     }
+
+     /* fale sobre nós */
+
+     #share{
+        display: none;
+     }
+
+     .area-redes-sociais .logos-redes {
+        justify-content: center;
+
+     }
+
+     .logos-redes .compartilhar a{
+        flex-direction:column;
+        margin-right: 10px;
+     }
+
+     /* mapa */
+    .section-mapa{
+        padding-left:30px;
+        padding-right:39px;
+    }
+
+    .section-map--area{
+        width:auto
+    }
+
+    .section-map--info {
+        width: auto;
+    }
+
+    .section-map--info-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* footer */
+
+    .section-footer--area{
+        align-items: center;
+        flex-direction:column;
+    }
+
+    .section-footer--area-info{
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .section-footer--area-info:last-child{
+        margin-bottom: 0;
+    }
+
+    .section-footer--area-info p{
+        font-size: 18px;
+    }
+
+    .copyright{
+        font-size: 20px;
+        font-weight:bold;
+    }
+
+    .section-footer--area-info .section-footer-info-enviar-email{
+        background-color: #000;
+    }
+
+    .section-footer-info-enviar-email input{
+        background-color: #000;
+        height: 45px;
+
+    }
+    
+    .section-footer-info-enviar-email .button.produto {
+        width: 300px;
+
+    }
+
+    .section-footer-info-enviar-email .button.produto br{
+        display: none;
+    }
+
+}
+
+@media (max-width:450px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    /* menu */
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color:rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top:100px;
+        right: 0;
+    }
+
+    .header .logo {
+        font-size: 45px;
+        margin-left:30px;
+    }
+
+    .menu-opener{
+        display: block;
+        width: 45px;
+        margin-right:30px;
+    }
+
+    .menu-opener .row-menu{
+        width: 37px;
+        height: 6px;
+    }
+    
+    .menu ul{
+        flex-direction:column;
+    }
+
+    .menu li a{
+        font-weight: bold;
+        height: 50px;
+        font-size:20px;
+        margin-left:20px;
+        border:0;
+    }
+
+    .menu .active a {
+        border:0px;
+        color:#b28756
+    }
+
+    .menu a:hover{
+        color: #b28756;
+        border:none
+    }
+
+    /* banner */
+
+    .banner .slide-area h1{
+        font-size: 30px;
+    }
+
+    /* Sobre Nós */
+
+    .section-sobre-nos{
+        flex-direction:column;
+    }
+
+    .section-sobre-nos-left{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-sobre-nos-right {
+        width: auto;
+        margin-left:30px;
+        margin-right:30px;
+    }
+
+    .section-sobre-nos-right img{
+        width: 100%;
+    }
+
+    /* Serviços */
+
+    .section-servicos{
+        flex-wrap:wrap;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-servico{
+        min-width: 100%;
+        padding-bottom: 20px;
+        border-top:1px solid #333;
+        padding: 30px;
+        border-right:none;
+    }
+
+    .section-servico p{
+        margin-top: 0;
+    }
+
+    .section-servico:first-child{
+        border-left:none;
+        border-top:none;
+    }
+
+
+    /* Nossos Projetos */
+
+    .section-projetos-filtros {  
+        display: block;
+        border: 1px solid #CCC;
+        border-radius: 0;
+        background-color:#EEE;
+        padding:0;
+        width: 90%;
+    }
+    
+    .section-projetos-filtros ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .section-projetos-filtros li {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        padding-left: 0;
+        text-transform: uppercase;
+        margin-right: 0px;
+        font-size:15px;
+        color: #555;
+        border-bottom: 0;
+        cursor:pointer;
+        width: 100%;
+        border-bottom: 1px solid #CCC;
+        border-left: none;
+    }
+    
+    /* Nosso Equipe */
+
+    .section-team{
+        max-width:280px;
+    }
+
+    /* Clientes Felizes */
+
+    .Comentario {
+        width:auto;
+        margin: 15px 30px;
+    }
+
+    /* patrocinadores */
+    .patrocinio{
+        flex-wrap: wrap;
+    }
+
+    .img-patrocionios{
+        text-align: center;
+        margin-bottom: 30px;
+        width: 50%;
+    }
+
+    /* preços */
+
+    .area-prices{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .area-prices .box-price{
+        width: 60%;
+        justify-content: space-around;
+        margin: 30px;
+    }
+
+    
+
+
+    /* apresentação*/
+
+    .apresentacao-produto{
+        flex-direction: column;
+        align-items: center;
+        margin:0 30px
+    }
+
+    .apresentacao-produto .area-imagem{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-right: 0;
+    }
+
+    .apresentacao-produto .area-imagem img{
+        width: 280px;
+    }
+    
+     /* alguns fatos */
+
+     .section-fatos-sobre{
+        flex-direction: column;
+        margin-bottom: 10px;
+     }
+
+     .section-fato-sobre{
+        margin-bottom: 20px;
+     }
+
+     .section-fato-sobre h4{
+        margin-top:0
+     }
+
+     /* fale sobre nós */
+
+     #share{
+        display: none;
+     }
+
+     .area-redes-sociais .logos-redes {
+        justify-content: center;
+
+     }
+
+     .logos-redes .compartilhar a{
+        flex-direction:column;
+        margin-right: 10px;
+     }
+
+     /* Formulario */
+
+     .section-formulario-contato .form{
+        width: auto;
+        margin: 30px;
+     }
+
+     .section-formulario-contato .button.produto{
+        margin-top: 20px;
+     }
+
+     /* mapa */
+    .section-mapa{
+        padding:0;
+        padding-bottom: 450px;
+    }
+
+    .section-map--area{
+        width:auto
+    }
+
+    .section-map--info {
+        width: auto;
+    }
+
+    .section-map--info-item:last-child {
+        margin-bottom: 0;
+    }
+
+    /* footer */
+
+    .section-footer--area{
+        align-items: center;
+        flex-direction:column;
+    }
+
+    .section-footer--area-info{
+        align-items: center;
+        width: 100%;
+        flex-direction: row;
+        margin-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 30px;
+        flex-direction: column;
+    }
+
+    .section-footer--area-info:last-child{
+        margin-bottom: 0;
+    }
+
+    .section-footer--area-info p{
+        font-size: 18px;
+    }
+
+    .copyright{
+        font-size: 20px;
+        font-weight:bold;
+        margin-top: 20px;
+    }
+
+    .section-footer--area-info .section-footer-info-enviar-email{
+        background-color: #000;
+    }
+
+    .section-footer-info-enviar-email input{
+        background-color: #000;
+        height: 45px;
+
+    }
+    
+    .section-footer-info-enviar-email .button.produto {
+        width: 230px;
+
+    }
+
+    .section-footer-info-enviar-email .button.produto br{
+        display: none;
+    }
+
+}
+
+@media (min-width:200px) and (max-width:400px){
+    /* menu */
+
+    .header .logo{
+        margin-left:15px
+    }
+
+    .menu-opener{
+        margin-right: 15px;
+    }
+    
+    /* preços */
+
+    .area-prices .box-price{
+        width: 299px;
+    }
+
+    .box-price button{
+        margin-top: 5px;
+        
+    }
+    
+    
+    #form-duplo{
+        width: 100%;
+        margin-right: 0;
+    }
+
+    /* mapa */
+
+    .section-map--info{
+        padding:10px;
+    }
+
+    /* footer */
+
+    .section-footer-social a{
+        width: 30px;
+        height: 30px;
+    }
+
+    .section-footer-info-enviar-email input{
+        width: 100%;
+    }
+
+}
